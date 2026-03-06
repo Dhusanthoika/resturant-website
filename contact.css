@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    box-shadow: 5px 5px 20px rgba( 0,0,0.5);
+    background-color: rgb(245, 234, 234); 
+}
+.navbar .navbar-brand{
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(252, 48, 12);
+}
+#navbarSupportedContent a:hover{
+
+    color:rgb(252, 48, 12);
+
+}
+#navbarSupportedContent ul{
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+.contact-container {
+    background-color: rgb(0, 0, 0, 0);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    background-image: url(images/contact2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-container h2 {
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+    color: #e90e0e;
+    font-weight: 600;
+}
+
+.contact-container p {
+    margin-bottom: 20px;
+    color: #0e0d0d;
+    font-size: 1rem;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #111111;
+    
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #e9dbdb;
+    background: transparent;
+}
+
+textarea {
+    height: 100px;
+}
+
+.send-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ec670e;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #f52e14;
+}
+
+.reset-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ec670e;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #f52e14;
+}

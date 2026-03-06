@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    box-shadow: 5px 5px 20px rgba( 0,0,0.5);
+    background-color: rgb(245, 234, 234); 
+}
+.navbar .navbar-brand{
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(252, 48, 12);
+}
+#navbarSupportedContent a:hover{
+
+    color:rgb(252, 48, 12);
+
+}
+#navbarSupportedContent ul{
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+/***about***/
+.about_text{
+    background-image: url(images/aboutbg.jpg)
+}
+.about-text h1{
+    text-align: center;
+}
+.about_text h2{
+    font-size: 4rem;
+    color: #e7e0da;
+}
+.about_text p{
+    font-size:2rem;
+    font-weight: bold;
+}
+/****footer***/
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--light);
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--primary);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.copyright {
+    background: #dfd6d6;
+}
+
+.copyright a {
+    color: var(--primary);
+}
+
+.copyright a:hover {
+    color: var(--light);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--light);
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--primary);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.copyright {
+    background: #111111;
+}
+
+.copyright a {
+    color: var(--primary);
+}
+
+.copyright a:hover {
+    color: var(--light);
+}

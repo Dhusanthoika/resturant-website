@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    box-shadow: 5px 5px 20px rgba( 0,0,0.5);
+    background-color: rgb(245, 234, 234); 
+}
+.navbar .navbar-brand{
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(252, 48, 12);
+}
+#navbarSupportedContent a:hover{
+
+    color:rgb(252, 48, 12);
+
+}
+#navbarSupportedContent ul{
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+.title h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3rem;
+    color: rgb(248, 105, 2);
+}
+.services{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 20px;
+    padding: 20px 20px;
+    background-color: rgb(192, 19, 19);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(241, 75, 15);
+    transition: 0.4s ease;
+}
+.card .icon{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.card h2{
+    font-size: 2rem;
+    color: rgb(221, 100, 56);
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    line-height: 1;
+    color: rgb(14, 13, 13);
+}
+.button{
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(230, 217, 212);
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: chocolate;
+}
+.button:hover{
+    background-color: red;
+    transition: 0.4s ease;
+}
+@media screen and (max-width: 768px) {
+    .services {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align cards */
+        padding-left: 0; /* Remove extra left padding for small screens */
+    }
+    .card {
+        width: 90%; /* Adjust card width for smaller screens */
+        margin-bottom: 20px; /* Add space between stacked cards */
+    }
+}
+/****footer***/
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--light);
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--primary);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.copyright {
+    background: #dfd6d6;
+}
+
+.copyright a {
+    color: var(--primary);
+}
+
+.copyright a:hover {
+    color: var(--light);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--light);
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--primary);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.copyright {
+    background: #111111;
+}
+
+.copyright a {
+    color: var(--primary);
+}
+
+.copyright a:hover {
+    color: var(--light);
+}
+
+
+/****
+.title h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3rem;
+    color: rgb(248, 105, 2);
+}
+.services{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 20px;
+    padding: 20px 20px;
+    background-color: rgb(192, 19, 19);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(231, 15, 15);
+    transition: 0.4s ease;
+}
+.card .icon{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.card h2{
+    font-size: 2rem;
+    color: orangered;
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    line-height: 1;
+    color: rgb(14, 13, 13);
+}
+.button{
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(230, 217, 212);
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: chocolate;
+}
+.button:hover{
+    background-color: orangered;
+    transition: 0.4s ease;
+}
+@media screen and(max-width:769px){
+    .services{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .card{
+        width: 85%;
+        display: flex;
+        margin: 20px 0;
+    }
+}
+
+/***
+.service-container {
+    text-align: center;
+    padding: 20px;
+    padding-right: 3rem;
+}
+
+.h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #e95d26dd;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+   
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(101, 17, 17, 0.1);
+    text-align: center;
+    font-family: 'Harlow Solid Italic';
+    color: #1b1919;
+    transform: scale(1.05);
+    
+    
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 5px;
+    transform: scale(1.05);
+}
+
+.service p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.magepro {
+  width:200px;
+  height:250px;
+  object-fit:cover;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
