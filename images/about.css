@@ -1,0 +1,10 @@
+.hero{
+    background-color: azure;
+
+}
+.heading h1{
+    color: aqua;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 35px;
+}
